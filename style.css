@@ -94,20 +94,25 @@ h5{
     padding: 1rem 1rem;
     font-size: .8rem;
     border-radius: 10px;
+    scale: 1;
+    transition: all 150ms linear;
+    transform-origin: left;
 
     >span{
         padding: .25rem .5rem;
         border-radius: 5px;
+        color: #4bdde7;
 
         &:hover{
             background-color: #20a6af;
+            color: #0a4246;
             cursor: pointer;
         }
     }
 }
 
 .hidden{
-    display: none;
+    scale: 0;
 }
 
 img{
